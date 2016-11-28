@@ -1,0 +1,40 @@
+html,
+body,
+.ui-page {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#index{
+    /* background color for demo - neglect it */
+    background-image: url('images/tile.png');
+}
+#thanks .ui-content:before{
+    background-image: url('images/jb.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+}
+.ui-page,
+.ui-page * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.white{
+    background-color: white;
+}
+.banner{
+    padding:30px;
+    font-size:300%;
+    font-family: "Calibri Light";
+}
