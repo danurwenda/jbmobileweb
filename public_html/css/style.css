@@ -6,9 +6,16 @@ body,
     margin: 0;
     padding: 0;
 }
+.ui-header .ui-title{
+    /*we don't need the space for empty title'*/
+    padding:0 0;
+}
 #index{
     /* background color for demo - neglect it */
     background-image: url('images/tile.png');
+}
+#index-content{
+    /*padding-top: 100px;*/
 }
 #thanks .ui-content:before{
     background-image: url('images/jb.png');
@@ -37,4 +44,7 @@ body,
     padding:30px;
     font-size:300%;
     font-family: "Calibri Light";
+}
+.ui-header{
+    background-color: transparent;
 }

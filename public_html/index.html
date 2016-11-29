@@ -11,22 +11,27 @@
     </head>
 
     <body align="center">
+        <div data-role="header">
+                <a href="#" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all" data-lang="id">Indonesia</a>
+            <span class="ui-title"></span>
+                <a href="#" class="ui-btn-right ui-btn ui-btn-inline ui-mini ui-corner-all" data-lang="en">English</a>
+        </div>
         <div data-role="page" id="index">
 
             <div role="main" class="ui-content" id="index-content">
-                <img alt="video" src="css/images/ycdi.gif"/>    
-                <div class="banner white ui-grid-solo">SIGN UP FOR FREE JBATIK MOBILE</div>
-                <input style="background-color: grey" type="text" placeholder="WRITE YOUR EMAIL HERE" id="email"/>
-                <a href="#thanks" class="ui-btn" data-transition="flip" id="submit">Submit</a>
+                <!--<img width="100%" alt="video" src="css/images/ycdi.gif"/>-->    
+                <div class="banner white ui-grid-solo" data-translate="signup"></div>
+                <input style="background-color: grey" type="text" placeholder="EMAIL" id="email"/>
+                <a href="#thanks" class="ui-btn" data-transition="flip" id="submit" data-translate="submit"></a>
             </div>
         </div>
-        
+
         <div data-role="page" id="thanks">
 
             <div role="main" class="ui-content">
-                <div class="banner ui-grid-solo"><i>Thank you!</i></div>
-                <div class="banner ui-grid-solo">The apps is in the making. We'll let you know when it's ready.</div>
-                
+                <div class="banner ui-grid-solo"><i data-translate="thank"></i></div>
+                <div class="banner ui-grid-solo" data-translate="msg"></div>
+
             </div>
 
         </div>
